@@ -4,27 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сучасна пекарня</title>
+
+    
+    <style>
+        h1{
+background-color:blueviolet;
+        }
+    </style>
+
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header>
     <nav>
-        <a href="#">
+        <a href="./index.html">
     <img src="./images/logo.svg" alt="Логотип сучасної пекарні"/>
     </a>
     <ul>
-    <li><a href="#" target="_blank">Франшиза</a></li>
-    <li><a href="#"></a>Наші традиціЇ</a></li>
-    <li><a href="#"></a>Формати</a></li>
-    <li><a href="#"></a>Контакти</a></li>
+    <li><a href="#traditions-section" target="_blank">Наші традиціЇ</a></li>
+    <li><a href="#chefs-section" target="_blank">Шеф-кухарі</a></li>
+    <li><a href="#formats-section" target="_blank">Формати</a></li>
+    <li><a href="#contact-section" target="_blank">Контакти</a></li>
     </ul>
     </nav>
     <button type="button">замовити дзвінок</button>
 </header>
+<!--Test table-->
 <main>
     <Section>
-        <h1>Сучасна пекарня</h1>
+        <h1 style="color: rgb(30, 32, 131);">Сучасна пекарня</h1>
     </Section>
-    <Section>
+    <Sectionb id="traditions-section">
         <ul>
         <li>Великий попит на ринку</li>
         <li>Доступні за бюджетом формати</li>
@@ -37,9 +47,9 @@
         <p>Ми працюємо як найвідоміші мережі -
              <span>5 хвилин і замовлення готове</span>. А ще у наших пекарень стильний дизайн та висока якість обслуговування
         </p>
-        <img src="./images/baker-man.jpg" alt="Чоловік пекар дивиться на батони із посмішкою"
+        <img src="./images/baker-man.jpg" alt="Чоловік пекар дивиться на батони із посмішкою" />
     </Section>
-    <Section>
+    <Section id="chefs-section">
         <H2>Наші найкращі шеф-кухарі</H2>
         <ul>
             <li><article>
@@ -59,7 +69,7 @@
        
         
     </Section>
-    <Section>
+    <Section id="formats-section">
         <H2>Формати</H2>
         <ul><li><article>
             <H3 lang="en">Walrus</H3>
@@ -72,8 +82,9 @@
         </article></li>
 </ul>
     </Section>
-    <Section>
+    <Section id="contact-section">
         <H2>Приєднуйся до мережі пекарень</H2>
+        
     </Section>
 </main>
 <footer>
@@ -82,8 +93,8 @@
     <img src="./images/logo.svg" alt="Логотип сучасної пекарні" />
 </a>
 <ul>
-<li><a href="#" target="_blank">Франшиза</a></li>
-<li><a href="#"></a>Наші традиціЇ</a></li>
+<li><a href="#" target="_blank">Наші традиціЇ</a></li>
+<li><a href="#"></a>Шеф-кухарі</a></li>
 <li><a href="#"></a>Формати</a></li>
 <li><a href="#"></a>Контакти</a></li>
 </ul>
@@ -101,7 +112,8 @@
     </a></li>
     </ul>
     <a href="#" target="_blank">Політика конфіденційності</a>
-    <p>2022  Дані захищені</p>
+    <p></p>
+    <p>&copy; 2022  Дані захищені &#36;</p>
 </address>
 </footer>
 </body>
